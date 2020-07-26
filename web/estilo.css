@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box; 
+}
+:root{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;}
+
+	header{
+		height: 100vh;
+		background-image:linear-gradient(to top, rgba(161,140,209,0.5) 0% , rgba(251,194,235,0.5)100%), url(img/chica.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+
+	}
+	.head{
+		padding: 0;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: #fff;
+
+	}
+	.menu{
+		position: fixed;
+		top: 30px;
+		left: 30px;
+		background: #fff;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+		border-radius: 10px;
+		box-shadow: 0 0 6px rgba(0,0,0,5);
+	}
+
+	.menu-navegacion{
+		position: fixed;
+		top: 0;
+		width: 30px;
+		left: 0;
+		height: 100%;
+		background-image: background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: column;
+		align-items: center;
+		transition: trasnform .3s ease-in-out;
+		transform: translate(10%);
+		box-shadow: 0 0
+	}
+	.spread{
+		transform: translate(0);
+	}
+
+	.menu-navegacion{
+		color: #fff
+		text-decoration: none;
+	}
+.titulo{
+	font-size: 60px;
+	margin-bottom: 15px;
+
+}
+.copy{
+	font-weight: 300;
+	font-size: 25px;
+
+}
